@@ -34,3 +34,19 @@ speechSynthesis.speak(suara);
 
 
 }
+function bacaAngka(teks){
+
+
+let suara = new SpeechSynthesisUtterance();
+
+
+suara.text = teks;
+
+
+suara.lang="id-ID";
+
+
+speechSynthesis.speak(suara);
+
+
+}
